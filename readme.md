@@ -4,9 +4,11 @@
 
 The School Management API is a Node.js application that allows users to manage school data. It provides endpoints to add new schools and retrieve a list of schools sorted by proximity to a specified location.
 
-## PostMan Docs
+## Important Section
 
--[POSTMAN- CLICK HERE](https://documenter.getpostman.com/view/30488948/2sAXjF8Zx9)
+-[POSTMAN DOCS- CLICK HERE](https://documenter.getpostman.com/view/30488948/2sAXjF8Zx9)
+
+- [Production URL](https://school-management-iqywxiv7j-eshan-das-projects.vercel.app/api/)
 
 ## Features
 
