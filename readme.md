@@ -31,10 +31,11 @@ The School Management API is a Node.js application that allows users to manage s
 
 1. **Clone the repository:**
 
-   /`bash
-git clone https://github.com/Eshan276/school-management-api.git
-cd school-management-api
-`/
+   ```bash
+   git clone https://github.com/Eshan276/school-management-api.git
+   cd school-management-api
+
+   ```
 
 2. **Install dependencies:**
 
