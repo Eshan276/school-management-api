@@ -8,7 +8,7 @@ The School Management API is a Node.js application that allows users to manage s
 
 -[POSTMAN DOCS- CLICK HERE](https://documenter.getpostman.com/view/30488948/2sAXjF8Zx9)
 
-- [Production URL](https://school-management-iqywxiv7j-eshan-das-projects.vercel.app/api/)
+-[Production URL](https://school-management-iqywxiv7j-eshan-das-projects.vercel.app/api/)
 
 ## Features
 
