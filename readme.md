@@ -53,16 +53,7 @@ The School Management API is a Node.js application that allows users to manage s
 
      ```
 
-4. **Run Database Setup Script**
-
-   To create the `schools` table, run:
-
-   ```bash
-   node dbdb.js
-
-   ```
-
-5. **Start the Server**
+4. **Start the Server**
 
    ```bash
    node app.js
