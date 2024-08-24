@@ -25,7 +25,6 @@ The School Management API is a Node.js application that allows users to manage s
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (version 14 or higher)
-- [MySQL](https://www.mysql.com/) server
 
 ### Installation
 
@@ -39,30 +38,35 @@ The School Management API is a Node.js application that allows users to manage s
 
 2. **Install dependencies:**
 
-   /`bash
-npm install
-`/
+   ```bash
+   npm install
+
+   ```
 
 3. **Configure Database**
 
    - This step is OPTIONAL
    - Create a `.env` file in the root directory with the following content:
 
-     /`DATABASE_URL=mysql://avnadmin:AVNS_USUYip9GH0gEQNxYxQW@mysql-21357908-eshandas2002-9c89.h.aivencloud.com:17612/defaultdb?ssl-mode=REQUIRED`/
+     ```bash
+     DATABASE_URL=mysql://avnadmin:AVNS_USUYip9GH0gEQNxYxQW@mysql-21357908-eshandas2002-9c89.h.aivencloud.com:17612/defaultdb?ssl-mode=REQUIRED
+
+     ```
 
 4. **Run Database Setup Script**
 
    To create the `schools` table, run:
 
-   /`bash
-node dbdb.js
-`/
+   ```bash
+   node dbdb.js
+
+   ```
 
 5. **Start the Server**
 
-   /`bash
-node app.js
-`/
+   ```bash
+   node app.js
+   ```
 
    The server will start on `http://localhost:3000`.
 
@@ -74,14 +78,14 @@ node app.js
 - **Method:** `POST`
 - **Payload:**
 
-  /`json
-{
-  "name": "School Name",
-  "address": "School Address",
-  "latitude": 40.7128,
-  "longitude": -74.0060
-}
-`/
+  ```json
+  {
+    "name": "School Name",
+    "address": "School Address",
+    "latitude": 40.7128,
+    "longitude": -74.006
+  }
+  ```
 
 - **Response:** `200 OK` on success, `400 Bad Request` on validation errors.
 
@@ -94,18 +98,18 @@ node app.js
   - `longitude`: User's longitude.
 - **Response:**
 
-  /`json
-[
-  {
-    "id": 1,
-    "name": "School Name",
-    "address": "School Address",
-    "latitude": 40.7128,
-    "longitude": -74.0060,
-    "distance": "2.50 km"
-  }
-]
-`/
+  ```json
+  [
+    {
+      "id": 1,
+      "name": "School Name",
+      "address": "School Address",
+      "latitude": 40.7128,
+      "longitude": -74.006,
+      "distance": "2.50 km"
+    }
+  ]
+  ```
 
 ## Deployment
 
